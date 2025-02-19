@@ -4,10 +4,18 @@ public class Mahasiswa24 {
     String kelas;
     double ipk;
 
+    public Mahasiswa24() {
+    }
+    public Mahasiswa24(String nm, String nim, double ipk, String kls) {
+        this.nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        this.kelas = kls;
+    }
     void tampilkanInformasi() {
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);
-        System.out.println("IPK: " +ipk);
+        System.out.println("IPK: " + ipk);
         System.out.println("Kelas: " + kelas);
     }
     void ubahKelas(String kelasBaru) {

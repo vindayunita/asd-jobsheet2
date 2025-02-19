@@ -1,18 +1,10 @@
 public class MahasiswaMain24 {
-    String nama;
-    String nim;
-    String kelas;
-    double ipk;
     public static void main(String[] args) {
-        Mahasiswa24 mhs1 = new Mahasiswa24();
-        mhs1.nama = "Muhammad Ali Farhan";
-        mhs1.nim = "2241720171";
-        mhs1.kelas = "SI 2J";
-        mhs1.ipk = 3.55;
+        Mahasiswa24 mhsVinda = new Mahasiswa24("Vinda Yunita Sari", "244107060036", 3.76, "SIB 1C");
 
-        mhs1.tampilkanInformasi();
-        mhs1.ubahKelas("SI 2K");
-        mhs1.updateIpk(3.60);
-        mhs1.tampilkanInformasi();
+        mhsVinda.tampilkanInformasi();
+        mhsVinda.ubahKelas("SIB 1Z");
+        mhsVinda.updateIpk(4.00);
+        mhsVinda.tampilkanInformasi();
     }
 }
